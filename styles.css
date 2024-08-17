@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+@media screen and (max-width: 375px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+:root {
+  --roser-800: #7a284e;
+  --rose-50: #fff7fb;
+  --stone-900: #312e2c;
+  --stone-600: #5f564d;
+  --stone-150: #e3ddd7;
+  --stone-100: #f3e5d8;
+  --brown-800: #854632;
+  --white: #ffffff;
+  --space-1600: 128px;
+  --space-600: 48px;
+  --space-500: 40px;
+  --space-400: 32px;
+  --space-300: 24px;
+  --space-200: 16px;
+  --space-150: 12px;
+  --space-100: 8px;
+}
+.text-preset1 {
+  font-family: "Young Serif Regular";
+  font-size: 38px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.text-preset2 {
+  font-family: "Young Serif Regular";
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.text-preset3 {
+  font-family: "Outfit SemiBold";
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.text-preset4 {
+  font-family: "Outfit Regular";
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.text-preset4Bold {
+  font-family: "Outfit Bold";
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--stone-100);
+  gap: var(--space-100);
+  padding: var(--space-1600) var(--space-600);
+  font-family: "Outfit", sans-serif;
+}
+
+.recipe-card {
+  background-color: var(--white);
+  width: 680px;
+  height: auto;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: var(--space-500);
+  padding: var(--space-500);
+  border-radius: var(--space-300);
+}
+
+img {
+  height: 300px;
+  align-self: stretch;
+  flex-grow: 0;
+  flex-grow: 0;
+  border-radius: var(--space-150);
+}
+
+.omlette-recipe {
+  color: var(--stone-17);
+}
+
+.description {
+  color: var(--stone-600);
+  width: 656px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: var(--brown-800);
+  font-size: 28px;
+  font-family: "Young Serif";
+  font-weight: lighter;
+}
+
+.prep-time {
+  color: var(--roser-800);
+}
+
+.preperation-time {
+  background-color: var(--rose-50);
+  height: 150px;
+  width: 652px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+  gap: 16px;
+  padding: 24px;
+  border-radius: 12px;
+  padding-right: 5px;
+}
+
+.prep-time ul,
+li {
+  padding: 8px;
+}
+
+.prep-list {
+  margin-top: -40px;
+  margin-left: -10px;
+}
+.prep-list li::marker {
+  color: var(--roser-800);
+}
+
+.prep-list span {
+  color: var(--stone-600);
+}
+
+.ingredients {
+  margin-left: -18px;
+  color: var(--stone-600);
+}
+
+.prep-list span {
+  font-family: Outfit;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.prep-list li {
+  font-family: Outfit;
+  color: var(--stone-600);
+}
+
+.instructions-header {
+  margin-top: 30px;
+}
+
+.instructions-header li {
+  color: var(--stone-600);
+}
+
+.recipe-step ::marker {
+  color: var(--brown-800);
+}
+
+.instructions li::marker {
+  font-family: Outfit;
+  color: var(--brown-800);
+  font-weight: bold;
+}
+
+.instructions-bold {
+  font-family: Outfit;
+  font-weight: bold;
+  color: var(--stone-600);
+}
+
+.instructions li {
+  font-family: Outfit;
+}
+
+.instructions ol {
+  margin-right: 10px;
+  padding-left: 22px;
+  width: 620px;
+  color: var(--stone-600);
+}
+
+.nutrition-values-list {
+  font-family: Outfit;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--stone-600);
+}
+
+.brown-bold {
+  font-weight: bold;
+  color: var(--brown-800);
+}
+
+p {
+  height: 24px;
+  font-size: 16px;
+  font-family: Outfit;
+}
+h1 {
+  margin-top: 10px;
+}
+
+.nutrition-values {
+  color: var(--stone-600);
+}
+
+.nutrition-values-list .item {
+  padding: 10px 30px;
+  display: flex;
+}
+
+.nutrition-values-list .item * {
+  width: 100px;
+  margin-right: auto;
+}
